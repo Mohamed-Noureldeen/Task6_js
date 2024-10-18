@@ -1,0 +1,139 @@
+
+body{
+    position: relative;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    background-image: linear-gradient(rgba(255, 0, 0, .3), rgba(255, 0, 0, .3)), url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    height: calc(100vh - 100px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home h1{
+    font-size: 60px;
+}
+.side{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 999;
+}
+aside{
+    
+    background-color: black;
+    width: 0px;
+    padding: 0px 0px;
+   overflow: hidden;
+}
+aside ul li{
+    padding: 15px 10px;
+}
+aside ul li:nth-child(1){
+    text-align: right;
+}
+aside ul li a{
+text-transform: capitalize;
+font-size: 25px;
+
+}
+aside ul li i{
+    font-size: 25px;
+    color: white;
+}
+.aside-icon{
+    color: white;
+    font-size: 25px;
+    left: calc(100% + 20px);
+    width: 120px;
+    position: absolute;
+    top: 50vh;
+}
+.aside-icon i{
+    padding-right: 5px;
+}
+.close , .aside-icon{
+    cursor: pointer;
+}
+.dropdown{}
+.dropdown .cont{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-block: 70px;
+
+}
+.dropdown .cont .singer {}
+.dropdown .cont .singer h2{    
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.dropdown .cont .singer  p{
+    padding: 10px;
+    background-color: #ccc;
+    text-align: start;
+    margin-bottom: 0;
+    display: none;
+}
+.countdown{
+    padding: 100px 0;
+    background-image:linear-gradient(rgba(255, 0, 0, .7), rgba(255, 0, 0, .7)), url(../images/invitation-2508607__340.jpg);
+    margin-bottom: 50px;
+}
+.countdown .boxs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.countdown .boxs .box{
+    padding: 50px;
+    border: 1px solid white;
+    font-size: 25px;
+    width: 23%;
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.contact{
+    margin:100px 0 100px 0 ;
+}
+.contact .container{
+
+}
+.col-md-6 .icons{
+    margin-top: 50px;
+}
+.col-md-6 .icons .icon{
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+.maxave{
+    display: none;
+    text-transform: capitalize;
+}
